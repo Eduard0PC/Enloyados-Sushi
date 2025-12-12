@@ -546,3 +546,40 @@ main {
   color: black;
   font-weight: bold;
 }
+
+/*----------------HEADER 2------------------*/
+.salir:hover {
+  background-color: #9b3b3a !important;
+  color: white !important;
+}
+
+/*----------------DASHBOARD PAGE------------------*/
+.dashboard-page {
+  background-color: #616161;
+  background-image: url("img/banner3.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: white;
+  padding: 0;
+  text-align: center;       
+}
+
+.dashboard-info {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;   
+  padding: 200px 0px;    
+}
+
+.dashboard-info h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.dashboard-info p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
