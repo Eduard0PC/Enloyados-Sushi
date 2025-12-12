@@ -404,6 +404,19 @@ main {
   border-radius: 15px;
 }
 
+.about-page h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.about-page iframe {
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
 /* -----------------CONTACTANOS-------------------- */
 
 .contact-page {
