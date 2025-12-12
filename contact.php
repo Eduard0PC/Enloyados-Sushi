@@ -1,0 +1,94 @@
+<?php
+include "back/conexion.php";
+?>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&family=Rampart+One&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Asimovian&family=Bitcount+Prop+Single:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <title>CONTÁCTANOS - ENLOYADOS</title>
+</head>
+
+<body>
+  <?php include "front/header.php"; ?>
+
+  <main class="contact-page">
+    <div class="reservacion">
+      <h1 class="reserv-title">Contáctanos para tu Reservación</h1>
+      <p class="reserv-sub">Completa el siguiente formulario y nos pondremos en contacto para confirmar tu lugar.</p>
+      <div class="reserv-form-card">
+        <form action="" method="POST" class="reserv-form" id="reserv-form">
+
+          <label for="nombre">Nombre completo:</label>
+          <input type="text" name="nombre" id="nombre">
+
+          <label for="telefono">Teléfono:</label>
+          <input type="text" name="telefono" id="telefono">
+
+          <label for="personas">Número de personas:</label>
+          <input type="number" name="personas" id="personas" min="1">
+
+          <label for="fecha">Fecha:</label>
+          <input type="date" name="fecha" id="fecha">
+
+          <label for="hora">Hora:</label>
+          <input type="time" name="hora" id="hora">
+
+          <label for="mensaje">Mensaje adicional:</label>
+          <textarea name="mensaje" id="mensaje" rows="4"></textarea>
+
+          <button type="button" class="button" id="btn_reservar">Enviar Reservación</button>
+
+        </form>
+      </div>
+    </div>
+  </main>
+  <?php include "front/footer.php"; ?>
+  <script type="text/javascript">
+    $("#btn_reservar").click(function () {
+
+      if ($("#nombre").val().trim() === "") {
+        alert("Escribe tu nombre por favor");
+        $("#nombre").focus();
+        return;
+      }
+
+      if ($("#telefono").val().trim() === "") {
+        alert("Escribe tu teléfono por favor");
+        $("#telefono").focus();
+        return;
+      }
+
+      if ($("#personas").val().trim() === "" || $("#personas").val() <= 0) {
+        alert("Indica el número de personas por favor");
+        $("#personas").focus();
+        return;
+      }
+
+      if ($("#fecha").val().trim() === "") {
+        alert("Selecciona una fecha por favor");
+        $("#fecha").focus();
+        return;
+      }
+
+      if ($("#hora").val().trim() === "") {
+        alert("Selecciona una hora por favor");
+        $("#hora").focus();
+        return;
+      }
+      alert("Reservado correctamente");
+      document.getElementById("reserv-form").submit();
+    });
+  </script>
+
+</body>
+
+</html>

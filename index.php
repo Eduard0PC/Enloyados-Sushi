@@ -14,20 +14,9 @@
 </head>
 
 <body>
-  <header class="lados">
-    <div class="logo">
-      <a href="index.php">
-        <img src="img/logo.png" alt="logo">
-      </a>
-      <h1>ENLOYADOS</h1>
-    </div>
-    <div class="nav">
-      <a href="index.php">HOME</a>
-      <a href="#menu">MENU</a>
-      <a href="#about">QUIENES SOMOS</a>
-      <a href="login.php">INICIAR SESIÓN</a>
-    </div>
-  </header>
+  <?php
+  include "front/header.php";
+  ?>
   <main>
     <div class="banner">
       <div class="banner-cont">
@@ -49,11 +38,11 @@
         <img src="img/menu.jpg" alt="menu">
       </div>
     </div>
-    <div class="star-dishes" id="estrellas">
+    <div class="star-dishes">
       <h3>Nuestros Platillos Estrella</h3>
       <p>Sabores únicos que representan la esencia de ENLOYADOS.</p>
 
-      <div class="star-dishes-cont">
+      <div class="dish-cont">
         <div class="dish-card">
           <img src="img/dish1.jpg" alt="Platillo estrella 1">
           <h4>Dragon Roll</h4>
@@ -101,11 +90,10 @@
         </div>
       </div>
     </div>
-    <footer class="footer">
-      <p>© 2025 ENLOYADOS — Todos los derechos reservados.</p>
-    </footer>
-
   </main>
+  <?php
+  include "front/footer.php";
+  ?>
 </body>
 
 </html>
