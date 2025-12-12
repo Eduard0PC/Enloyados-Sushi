@@ -583,3 +583,114 @@ main {
   font-size: 20px;
   margin-bottom: 50px;
 }
+
+/* ----------------USERS PAGE------------------ */
+
+.users-page {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.users-page h2 {
+  font-size: 40px;
+  margin-bottom: 25px;
+  color: #333;
+  text-shadow: 2px 2px 0px #ffffff;
+}
+
+.botones a {
+  background-color: black;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.users_form {
+  width: 50%;
+  margin: 35px auto;
+  background-color: #fafafa;
+  padding: 35px 40px;
+  border-radius: 18px;
+  border: 3px solid #e3dbc9;
+  box-shadow: 8px 8px 0px #9b3b3a;
+  display: inline-block;
+  text-align: left;
+}
+
+.users_form input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 18px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  transition: 0.3s ease;
+}
+
+#btn_users {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  background-color: #9b3b3a;
+  color: white;
+  font-size: 16px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+
+/* ----------------TABLE USERS------------------ */
+
+.botones a.activo {
+  background: #9b3b3a;
+  color: white;
+}
+
+.users_table_cont {
+  margin-top: 35px;
+}
+
+.users_table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fafafa;
+  border: 3px solid #e3dbc9;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 8px 8px 0px #9b3b3a;
+}
+
+.users_table th {
+  background: black;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.users_table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.delete {
+  width: 25px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.delete:hover {
+  transform: scale(1.15);
+}
+
+.no-registros {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
