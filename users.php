@@ -35,7 +35,7 @@ require "back/seguridad.php";
       <input type="text" name="email" id="email" placeholder="Correo electrónico" required>
       <input type="password" name="password" id="password" placeholder="Contraseña" >
 
-      <button id="btn_users" type="button">Guardar</button>
+      <button id="btn_add" type="button">Guardar</button>
     </form>
 
   </main>
@@ -43,7 +43,7 @@ require "back/seguridad.php";
   <?php include "front/footer.php"; ?>
 
   <script type="text/javascript">
-    $("#btn_users").click(function () {
+    $("#btn_add").click(function () {
 
       if ($("#name").val().trim() == "") {
         alert("Escribe el nombre por favor");

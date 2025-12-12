@@ -218,7 +218,7 @@ main {
   width: 31%;
   margin: 10px;
   box-sizing: border-box;
-  box-shadow: 10px 10px 0px #9b3b3a, 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 0px #9b3b3a;
   background: #fafafa;
   border-radius: 12px;
   overflow: hidden;
@@ -315,7 +315,7 @@ main {
   background: #ffffff;
   border-radius: 18px;
   border: 2px solid #000000;
-  box-shadow: 6px 6px 0px #9b3b3a, 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 6px 6px 0px #9b3b3a;
   position: relative;
   transition: all 0.3s ease;
 }
@@ -347,7 +347,7 @@ main {
 
 .test-card:hover {
   transform: translateY(-12px);
-  box-shadow: 10px 10px 0px #9b3b3a, 0 0 25px rgba(0, 0, 0, 0.25);
+  box-shadow: 10px 10px 0px #9b3b3a;
   background-color: #fffefb;
   border-color: #000;
 }
@@ -632,7 +632,7 @@ main {
   transition: 0.3s ease;
 }
 
-#btn_users {
+#btn_add {
   width: 100%;
   padding: 12px;
   border: none;
@@ -693,4 +693,17 @@ main {
   text-align: center;
   margin-top: 20px;
   font-size: 18px;
+}
+
+/*----------------MENU------------------*/
+.users_form select {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 18px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  cursor: pointer;
 }
