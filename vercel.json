@@ -11,12 +11,6 @@
       "handle": "filesystem"
     },
     {
-      "src": "/(.*\\.(css|js|jpg|jpeg|png|gif|svg|ico|webp|woff|woff2|ttf|eot))$",
-      "headers": {
-        "cache-control": "public, max-age=31536000, immutable"
-      }
-    },
-    {
       "src": "/menu\\.php$",
       "dest": "/menu.php"
     },
