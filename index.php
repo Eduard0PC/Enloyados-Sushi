@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" type="image/png" href="/img/logo.png">
   <link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&family=Rampart+One&display=swap" rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css2?family=Asimovian&family=Bitcount+Prop+Single:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -35,7 +35,7 @@
         <a class="button" href="menu.php">Ver menu</a>
       </div>
       <div class="menu-right">
-        <img src="img/menu.jpg" alt="menu">
+        <img src="/img/menu.jpg" alt="menu">
       </div>
     </div>
     <div class="star-dishes">
@@ -44,19 +44,19 @@
 
       <div class="dish-cont">
         <div class="dish-card">
-          <img src="img/dish1.jpg" alt="Platillo estrella 1">
+          <img src="/img/dish1.jpg" alt="Platillo estrella 1">
           <h4>Dragon Roll</h4>
           <p>Camarón empanizado, aguacate fresco y un toque de nuestra salsa especial.</p>
         </div>
 
         <div class="dish-card">
-          <img src="img/dish2.jpg" alt="Platillo estrella 2">
+          <img src="/img/dish2.jpg" alt="Platillo estrella 2">
           <h4>Samurai Roll</h4>
           <p>Atún sellado, ajonjolí negro y salsa teriyaki artesanal.</p>
         </div>
 
         <div class="dish-card">
-          <img src="img/dish3.jpg" alt="Platillo estrella 3">
+          <img src="/img/dish3.jpg" alt="Platillo estrella 3">
           <h4>Tokyo Special</h4>
           <p>Combinación perfecta de salmón fresco, pepino y queso crema.</p>
         </div>

@@ -1,7 +1,7 @@
 <header class="lados">
   <div class="logo">
     <a href="index.php">
-      <img src="img/logo.png" alt="logo">
+      <img src="/img/logo.png" alt="logo">
       <h1>ENLOYADOS</h1>
     </a>
   </div>

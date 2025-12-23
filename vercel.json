@@ -8,7 +8,16 @@
   ],
   "routes": [
     {
-      "handle": "filesystem"
+      "src": "/styles.css",
+      "dest": "/styles.css"
+    },
+    {
+      "src": "/img/(.*)",
+      "dest": "/img/$1"
+    },
+    {
+      "src": "/(.*\\.(css|js|jpg|jpeg|png|gif|svg|ico|webp|woff|woff2|ttf|eot))",
+      "dest": "/$1"
     },
     {
       "src": "/(.*)",

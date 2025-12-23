@@ -12,8 +12,8 @@ $resultado = mysqli_query($conectar, $consulta);
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" type="image/png" href="/img/logo.png">
 
   <link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&family=Rampart+One&display=swap" rel="stylesheet">
   <link
@@ -57,7 +57,7 @@ $resultado = mysqli_query($conectar, $consulta);
               <td><?= $fila["password"] ?></td>
               <td>
                 <a href="#" onclick="validar('back/delete_user.php?id=<?= $fila['id'] ?>')">
-                  <img class="delete" src="img/images.png" alt="eliminar">
+                  <img class="delete" src="/img/images.png" alt="eliminar">
                 </a>
               </td>
             </tr>

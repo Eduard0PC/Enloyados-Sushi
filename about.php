@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" type="image/png" href="/img/logo.png">
   <link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&family=Rampart+One&display=swap" rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css2?family=Asimovian&family=Bitcount+Prop+Single:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -28,7 +28,7 @@
       </p>
     </div>
     <div class="about-right">
-      <img src="img/chef.jpg" alt="chef">
+      <img src="/img/chef.jpg" alt="chef">
     </div>
     <h2>NUESTRA UBICACIÓN</h2>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59621.767738631876!2d-89.68662450213662!3d20.93803382767916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56734ac9950e35%3A0x62aece6646a0b420!2sDaikima%20sushi!5e0!3m2!1ses!2smx!4v1765513645433!5m2!1ses!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

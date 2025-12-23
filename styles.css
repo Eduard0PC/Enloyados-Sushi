@@ -108,7 +108,7 @@ main {
 
 .banner {
   background-color: #414141;
-  background-image: url("img/banner.jpg");
+  background-image: url("/img/banner.jpg");
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
@@ -421,7 +421,7 @@ main {
 
 .contact-page {
   background-color: #414141;
-  background-image: url("img/banner.jpg");
+  background-image: url("/img/banner.jpg");
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
@@ -490,7 +490,7 @@ main {
 /*----------------LOGIN*------------------*/
 .login-page {
   background-color: #471b1a;
-  background-image: url("img/banner2.jpg");
+  background-image: url("/img/banner2.jpg");
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
@@ -569,7 +569,7 @@ main {
 /*----------------DASHBOARD PAGE------------------*/
 .dashboard-page {
   background-color: #616161;
-  background-image: url("img/banner3.jpg");
+  background-image: url("/img/banner3.jpg");
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
