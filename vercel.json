@@ -1,9 +1,11 @@
 {
-  "functions": {
-    "**/*.php": {
-      "runtime": "vercel-php@0.7.4"
+  "version": 2,
+  "builds": [
+    {
+      "src": "**/*.php",
+      "use": "vercel-php@0.7.4"
     }
-  },
+  ],
   "routes": [
     {
       "src": "/img/(.*)",
@@ -14,7 +16,7 @@
       "dest": "/styles.css"
     },
     {
-      "src": "/(.*\\.(php|css|js|jpg|jpeg|png|gif|svg|ico))",
+      "src": "/(.*\\.(css|js|jpg|jpeg|png|gif|svg|ico))",
       "dest": "/$1"
     },
     {
