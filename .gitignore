@@ -1,0 +1,19 @@
+# Variables de entorno
+.env
+.env.local
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de Vercel
+.vercel
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos de desarrollo
+node_modules/
+vendor/
+
