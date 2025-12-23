@@ -8,61 +8,52 @@
   ],
   "routes": [
     {
-      "src": "/styles\\.css",
-      "dest": "/styles.css"
+      "handle": "filesystem"
     },
     {
-      "src": "/(.*\\.(css|js|jpg|jpeg|png|gif|svg|ico|webp|woff|woff2|ttf|eot))",
-      "dest": "/$1",
+      "src": "/(.*\\.(css|js|jpg|jpeg|png|gif|svg|ico|webp|woff|woff2|ttf|eot))$",
       "headers": {
         "cache-control": "public, max-age=31536000, immutable"
       }
     },
     {
-      "src": "/img/(.*)",
-      "dest": "/img/$1",
-      "headers": {
-        "cache-control": "public, max-age=31536000, immutable"
-      }
-    },
-    {
-      "src": "/menu\\.php",
+      "src": "/menu\\.php$",
       "dest": "/menu.php"
     },
     {
-      "src": "/about\\.php",
+      "src": "/about\\.php$",
       "dest": "/about.php"
     },
     {
-      "src": "/contact\\.php",
+      "src": "/contact\\.php$",
       "dest": "/contact.php"
     },
     {
-      "src": "/login\\.php",
+      "src": "/login\\.php$",
       "dest": "/login.php"
     },
     {
-      "src": "/dashboard\\.php",
+      "src": "/dashboard\\.php$",
       "dest": "/dashboard.php"
     },
     {
-      "src": "/users\\.php",
+      "src": "/users\\.php$",
       "dest": "/users.php"
     },
     {
-      "src": "/verusers\\.php",
+      "src": "/verusers\\.php$",
       "dest": "/verusers.php"
     },
     {
-      "src": "/vermenu\\.php",
+      "src": "/vermenu\\.php$",
       "dest": "/vermenu.php"
     },
     {
-      "src": "/addmenu\\.php",
+      "src": "/addmenu\\.php$",
       "dest": "/addmenu.php"
     },
     {
-      "src": "/(.*\\.php)",
+      "src": "/(.*\\.php)$",
       "dest": "/$1"
     },
     {
