@@ -5,9 +5,16 @@
       <h1>ENLOYADOS</h1>
     </a>
   </div>
-  <div class="nav">
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  <div class="nav" id="navMenu">
     <a href="users.php">USUARIOS</a>
     <a href="addmenu.php">MENU</a>
     <a class="salir" href="back/salir.php">CERRAR SESIÓN</a>
   </div>
 </header>
+<script>
+function toggleMenu() {
+  var nav = document.getElementById('navMenu');
+  nav.classList.toggle('active');
+}
+</script>
